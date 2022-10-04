@@ -1,0 +1,6 @@
+push.sh
+pull.sh
+fetch.sh
+.DS_Store
+/bin/
+*.bin

@@ -1,0 +1,402 @@
+.tableWindow {
+	-fx-background-color: black;
+}
+
+.bookWindow {
+	-fx-background-color: black;
+}
+
+.menuWindow {
+	-fx-background-color: black;
+	-fx-padding: 200px 0 0 350px;
+}
+
+.bottomPane {
+	-fx-min-width: 60%;
+	-fx-min-height: 20%;
+}
+
+.leftPane {
+	-fx-min-width: 20%;
+	-fx-min-height: 60%;
+}
+
+.topPane {
+	-fx-min-width: 60%;
+	-fx-min-height: 20%;
+}
+
+.rightPane {
+	-fx-min-width: 20%;
+	-fx-min-height: 60%;
+}
+
+.tableWindow .playerZone {
+	-fx-background-color: red;
+}
+
+.bookWindow .playerZone {
+	-fx-background-color: blue;
+}
+
+.card {
+	-fx-min-width: 100px;
+	-fx-min-height: 120px;
+	-fx-border-style: solid;
+	-fx-border-color: black;
+	-fx-border-width: 0px;
+	-fx-text-alignment: center;
+	-fx-font: 0px serif;
+	-fx-background-position: center center;
+	-fx-background-size: 70;
+	-fx-background-repeat: no-repeat;
+}
+
+.card.selected {
+	-fx-border-color: white;
+	-fx-border-width: 2px;
+}
+
+.card.placeholder {
+	-fx-border-width: 0px;
+}
+
+.mainMenuButton{
+	-fx-min-width: 350px;
+	-fx-min-height: 50px;
+}
+
+.playerLabel{
+	-fx-text-alignment: center;
+	-fx-alignment: center;
+	-fx-font: 30px serif;
+	-fx-text-fill: red;
+}
+
+.bookLabel{
+	-fx-text-alignment: center;
+	-fx-alignment: center;
+	-fx-font: 30px serif;
+	-fx-text-fill: blue;
+}
+
+.turnBufferWindow {
+	-fx-background-color: black;
+}
+
+.bufferLabel {
+	-fx-text-alignment: center;
+	-fx-alignment: center;
+	-fx-text-fill: red;
+	-fx-font: 50px serif;
+}
+
+.deckIndicator{
+	-fx-alignment: center;
+	-fx-text-alignment: center;
+	-fx-text-fill: red;
+	-fx-font: 50px monospace;
+}
+.saveGame{
+	-fx-alignment: center;
+	-fx-text-alignment: center;
+	-fx-text-fill: black;
+	-fx-font: 30px serif;
+	-fx-background-color: red;
+	-fx-border-style: solid;
+	-fx-border-color: white;
+}
+
+.saveButton{
+	-fx-alignment: center;
+	-fx-text-alignment: center;
+	-fx-text-fill: red;
+	-fx-font: 20px serif;
+	-fx-border-style: solid;
+	-fx-border-color: red;
+	-fx-border-width: 2px;
+	-fx-background-color: black;
+	-fx-border-radius: 20px;
+	-fx-background-radius: 20px;
+}
+
+.saveButton:hover {
+	-fx-background-color: dimgrey;
+}
+
+.cardBack{
+	-fx-background-image: url("../images/back.png");
+}
+
+.cardAS{
+	-fx-background-image: url("../images/AS.png");
+}
+
+.card2S{
+	-fx-background-image: url("../images/2S.png");
+}
+
+.card3S{
+	-fx-background-image: url("../images/3S.png");
+}
+
+.card4S{
+	-fx-background-image: url("../images/4S.png");
+}
+
+.card5S{
+	-fx-background-image: url("../images/5S.png");
+}
+
+.card6S{
+	-fx-background-image: url("../images/6S.png");
+}
+
+.card7S{
+	-fx-background-image: url("../images/7S.png");
+}
+
+.card8S{
+	-fx-background-image: url("../images/8S.png");
+}
+
+.card9S{
+	-fx-background-image: url("../images/9S.png");
+}
+
+.cardTS{
+	-fx-background-image: url("../images/TS.png");
+}
+
+.cardJS{
+	-fx-background-image: url("../images/JS.png");
+}
+
+.cardQS{
+	-fx-background-image: url("../images/QS.png");
+}
+
+.cardKS{
+	-fx-background-image: url("../images/KS.png");
+}
+
+.cardAH{
+	-fx-background-image: url("../images/AH.png");
+}
+
+.card2H{
+	-fx-background-image: url("../images/2H.png");
+}
+
+.card3H{
+	-fx-background-image: url("../images/3H.png");
+}
+
+.card4H{
+	-fx-background-image: url("../images/4H.png");
+}
+
+.card5H{
+	-fx-background-image: url("../images/5H.png");
+}
+
+.card6H{
+	-fx-background-image: url("../images/6H.png");
+}
+
+.card7H{
+	-fx-background-image: url("../images/7H.png");
+}
+
+.card8H{
+	-fx-background-image: url("../images/8H.png");
+}
+
+.card9H{
+	-fx-background-image: url("../images/9H.png");
+}
+
+.cardTH{
+	-fx-background-image: url("../images/TH.png");
+}
+
+.cardJH{
+	-fx-background-image: url("../images/JH.png");
+}
+
+.cardQH{
+	-fx-background-image: url("../images/QH.png");
+}
+
+.cardKH{
+	-fx-background-image: url("../images/KH.png");
+}
+
+.cardAD{
+	-fx-background-image: url("../images/AD.png");
+}
+
+.card2D{
+	-fx-background-image: url("../images/2D.png");
+}
+
+.card3D{
+	-fx-background-image: url("../images/3D.png");
+}
+
+.card4D{
+	-fx-background-image: url("../images/4D.png");
+}
+
+.card5D{
+	-fx-background-image: url("../images/5D.png");
+}
+
+.card6D{
+	-fx-background-image: url("../images/6D.png");
+}
+
+.card7D{
+	-fx-background-image: url("../images/7D.png");
+}
+
+.card8D{
+	-fx-background-image: url("../images/8D.png");
+}
+
+.card9D{
+	-fx-background-image: url("../images/9D.png");
+}
+
+.cardTD{
+	-fx-background-image: url("../images/TD.png");
+}
+
+.cardJD{
+	-fx-background-image: url("../images/JD.png");
+}
+
+.cardQD{
+	-fx-background-image: url("../images/QD.png");
+}
+
+.cardKD{
+	-fx-background-image: url("../images/KD.png");
+}
+
+.cardAC{
+	-fx-background-image: url("../images/AC.png");
+}
+
+.card2C{
+	-fx-background-image: url("../images/2C.png");
+}
+
+.card3C{
+	-fx-background-image: url("../images/3C.png");
+}
+
+.card4C{
+	-fx-background-image: url("../images/4C.png");
+}
+
+.card5C{
+	-fx-background-image: url("../images/5C.png");
+}
+
+.card6C{
+	-fx-background-image: url("../images/6C.png");
+}
+
+.card7C{
+	-fx-background-image: url("../images/7C.png");
+}
+
+.card8C{
+	-fx-background-image: url("../images/8C.png");
+}
+
+.card9C{
+	-fx-background-image: url("../images/9C.png");
+}
+
+.cardTC{
+	-fx-background-image: url("../images/TC.png");
+}
+
+.cardJC{
+	-fx-background-image: url("../images/JC.png");
+}
+
+.cardQC{
+	-fx-background-image: url("../images/QC.png");
+}
+
+.cardKC{
+	-fx-background-image: url("../images/KC.png");
+}
+.title{
+	-fx-alignment: center;
+	-fx-text-alignment: center;
+	-fx-text-fill: red;
+	-fx-font: 80px Comic-Sans-MS;
+	-fx-font-family: "Comic Sans MS";
+	-fx-text-decoration: underline;
+	-fx-min-width: 350px;
+	-fx-min-height: 50px;
+}
+.menuButton{
+	-fx-alignment: center;
+	-fx-text-alignment: center;
+	-fx-text-fill: red;
+	-fx-background-color: black;
+	-fx-font: 20px Comic-Sans-MS;
+	-fx-font-family: "Comic Sans MS";
+	-fx-min-width: 100px;
+	-fx-min-height: 50px;
+}
+.menuButton:hover {
+	-fx-background-color: dimgray;
+}
+.menuButton.selected{
+	-fx-border-color: gray;
+	-fx-border-width: 3px;
+}
+.startLoadButton{
+	-fx-alignment: center;
+	-fx-text-alignment: center;
+	-fx-text-fill: red;
+	-fx-background-color: black;
+	-fx-font: 20px Comic-Sans-MS;
+	-fx-font-family: "Comic Sans MS";
+	-fx-text-decoration: underline;
+	-fx-min-width: 350px;
+	-fx-min-height: 50px;
+}
+.startLoadButton:hover {
+	-fx-background-color: dimgray;
+}
+.scrollPane{
+	-fx-pref-height: 270px;
+	-fx-pref-width: 350px;
+	-fx-min-height: 260px; 
+	-fx-min-width: 350px;
+	-fx-max-height: 300px;
+	-fx-max-width: 400px;
+	-fx-background-color: red;
+}
+.scrollPane > .viewport{
+	-fx-background-color: red;
+}
+.scrollPaneBook{
+	-fx-pref-height: 300px;
+	-fx-pref-width: 400px;
+	-fx-min-height: 260px; 
+	-fx-min-width: 350px;
+	-fx-max-height: 300px;
+	-fx-max-width: 400px;
+	-fx-background-color: blue;
+}
+.scrollPaneBook > .viewport{
+	-fx-background-color: blue;
+}
